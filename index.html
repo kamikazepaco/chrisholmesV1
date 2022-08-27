@@ -22,14 +22,15 @@
     <!--Favicons-->
     <!--Use https://realfavicongenerator.net/ to generate and download your favicons-->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v1">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
     <!-- Preload -->
-    <link rel="preload" as="image" href="/images/landing-m.webp">
+    <!-- <link rel="preload" as="image" href="/images/landing-m.webp"> -->
+    <link rel="preload" as="image" href="/images/hero.jpg">
     <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-regular.woff2" crossorigin>
     <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-700.woff2" crossorigin>
 
@@ -45,7 +46,7 @@
         <link rel="stylesheet" href="/css/local.css">
     </noscript>
 
-    <title>Company Name | What They Do | Town and State</title>
+    <title>Chris Holmes Construction LLC | Commercial and Residential Remodeling | Mobile, AL</title>
 </head>
 <body>
     <!--Screen reader skip main nav-->
@@ -66,11 +67,14 @@
             <!--Logo - Get SVGs if you can.  I use fiverr to get png's turned into SVGs. Highly recommend it, worth the $20 - get a light and dark version-->
             <a class="logo" aria-label="click to go to home page" href="/index.html">
                 <!--Light Colored Logo, remove .dark image tag and the .light class if you don't have a dark and light version -->
-                <img class="light" aria-hidden="true" src="/images/logo-light.png" decoding="async" alt="logo" width="221" height="66">
+                <img class="light" aria-hidden="true" src="/images/logo_ch.png" decoding="async" alt="logo" width="221" height="66">
 
                 <!--Dark Colored Logo-->
-                <img class="dark" aria-hidden="true" src="/images/logo-blue.png" decoding="async" loading="lazy" alt="logo" width="221" height="66">
+                <img class="dark" aria-hidden="true" src="/images/logo_ch.png" decoding="async" loading="lazy" alt="logo" width="221" height="66"> 
             </a>
+            
+            
+
 
             <!--Main Nav-->
             <nav id="navbar-menu">
@@ -115,10 +119,11 @@
                     </a>
                 </div>
             </div>
+            <!-- ++ Looks like this is loading a mobile image ++ -->
             <picture>
-                <!-- <source media="(max-width: 600px)" srcset="/images/landing-m.webp">
+                <source media="(max-width: 600px)" srcset="/images/landing-m.webp">
                 <source media="(min-width: 601px)" srcset="/images/landing.jpg">
-                <img aria-hidden="true" decoding="async" src="/images/landing.jpg" alt="new home" width="275" height="132"> -->
+                <img aria-hidden="true" decoding="async" src="/images/landing.jpg" alt="new home" width="275" height="132">
             </picture>
         </section>
 

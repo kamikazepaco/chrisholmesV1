@@ -14,8 +14,7 @@
   }
   #reviews .review {
     padding: 4em 1.875em 1.125em 1.875em;
-    -webkit-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
-            box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
     width: 100%;
     max-width: 25.625em;
     margin: auto;
@@ -23,13 +22,8 @@
     border-radius: 0.3125em;
     position: relative;
     background: #fff;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   #reviews .review:last-of-type {
     margin-bottom: 0;
@@ -53,17 +47,10 @@
   #reviews .review .star-group {
     border-top: 1px solid #E7E7E7;
     padding-top: 1em;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
     margin-top: auto;
   }
   #reviews .review .star-group .name {
@@ -93,17 +80,11 @@
   }
   #reviews .container {
     font-size: min(1.4vw, 1em);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
     padding: 0;
-    -webkit-column-gap: 1.875em;
-            column-gap: 1.875em;
+    column-gap: 1.875em;
   }
   #reviews .review {
     margin: 0;
@@ -164,8 +145,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   #cta .title {
     font-weight: 900;
@@ -214,8 +194,7 @@
     opacity: 1;
     bottom: 0;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
     z-index: -3;
   }
   #cta .container {
@@ -225,8 +204,7 @@
   #cta picture {
     width: 90.0625%;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
   }
   #cta picture:before {
     content: '';
