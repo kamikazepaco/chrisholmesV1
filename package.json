@@ -1,0 +1,23 @@
+{
+  "name": "starter-kitv3-main",
+  "version": "1.0.0",
+  "description": "This is the latest version of my starter kit that I will be using from now on to build all my websites. It has a completely remade responsive navigation that is much simpler, and easier to edit and customize.",
+  "main": "dark.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "lessc css/about.less css/about.css && lessc css/contact.less css/contact.css && lessc css/critical.less css/critical.css && lessc css/dark.less css/dark.css && lessc css/local.less css/local.css && lessc css/mobile-nav-options.less css/mobile-nav-options.css && lessc css/projects.less css/projects.css && lessc css/reviews.less css/reviews.css && lessc css/root.less css/root.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamikazepaco/starterTemplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamikazepaco/starterTemplate/issues"
+  },
+  "homepage": "https://github.com/kamikazepaco/starterTemplate#readme",
+  "devDependencies": {
+    "less": "^4.1.3"
+  }
+}
